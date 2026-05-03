@@ -2,7 +2,5 @@
 import Vue from "vue";
 
 export default () => {
-  Vue.filter("date", function (d) {
-    return moment(d).format();
-  });
-}
+    Vue.filter("date", (d) => moment(d).format());
+};

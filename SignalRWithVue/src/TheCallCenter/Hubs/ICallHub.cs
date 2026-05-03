@@ -3,9 +3,9 @@ using TheCallCenter.Data.Entities;
 
 namespace TheCallCenter.Hubs
 {
-  public interface ICallHub
-  {
-    Task CallAnswered(Call call);
-    Task NewCall(Call newCall);
-  }
+    public interface ICallHub
+    {
+        Task CallAnswered(Call call);
+        Task NewCall(Call newCall);
+    }
 }

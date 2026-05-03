@@ -1,4 +1,4 @@
-﻿import {HubConnectionBuilder} from "@aspnet/signalr";
+﻿import { HubConnectionBuilder } from "@aspnet/signalr";
 
 class CallHub {
     constructor() {

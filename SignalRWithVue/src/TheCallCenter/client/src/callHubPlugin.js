@@ -1,8 +1,8 @@
-﻿import CallHub from ".callHub";
+﻿import CallHub from "./callHub";
 
 export default {
-    install(vue, options) {
+    install(Vue) {
         CallHub.start();
-        vue.prototype.$callhub = CallHub;
+        Vue.prototype.$callhub = CallHub;
     }
 };
